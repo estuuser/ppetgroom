@@ -1,104 +1,71 @@
-/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f2;
+  color: #333;
+  line-height: 1.6;
 }
 
-h1, h2 {
-    color: #333;
-}
-
-/* Header Section */
 header {
-    background-color: #ffcc00;
-    color: white;
-    text-align: center;
-    padding: 50px 20px;
+  background-color: #ffcc99;
+  padding: 60px 20px 40px;
+  text-align: center;
 }
 
 .hero h1 {
-    font-size: 3em;
-    margin: 0;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #333;
 }
 
 .hero p {
-    font-size: 1.2em;
-    margin: 10px 0;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #444;
 }
 
-.cta-button {
-    background-color: white;
-    color: #ffcc00;
-    padding: 10px 20px;
-    font-size: 1.1em;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
+.language-switch {
+  margin-top: 10px;
 }
 
-.cta-button:hover {
-    background-color: #f4c500;
+.language-switch a {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 18px;
+  background-color: #f7a64c;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
 }
 
-/* About Section */
-#about {
-    background-color: white;
-    padding: 40px 20px;
-    margin: 20px;
-    border-radius: 10px;
-    text-align: center;
+.language-switch a:hover {
+  background-color: #e38b2f;
 }
 
-#about h2 {
-    font-size: 2em;
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
 }
 
-/* Services Section */
-#services {
-    background-color: white;
-    padding: 40px 20px;
-    margin: 20px;
-    border-radius: 10px;
-    text-align: center;
+section h2 {
+  color: #f57c00;
+  font-size: 1.8em;
+  margin-bottom: 15px;
 }
 
-#services h2 {
-    font-size: 2em;
+section ul {
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-ul li {
-    font-size: 1.2em;
-    margin-bottom: 15px;
-}
-
-/* Contact Section */
-#contact {
-    background-color: white;
-    padding: 40px 20px;
-    margin: 20px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-#contact h2 {
-    font-size: 2em;
-}
-
-/* Footer */
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
-
-footer p {
-    margin: 0;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #555;
 }
